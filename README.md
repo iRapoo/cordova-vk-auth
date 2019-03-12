@@ -1,4 +1,4 @@
-# Cordova-plugin-auth
+# Cordova-vk-auth
 
 2019, @Rapoo
 

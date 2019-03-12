@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e85930b-64ea-4544-a277-972cd850943c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="5e85930b-64ea-4544-a277-972cd850943c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +12,7 @@
     <session id="170583032">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="2" />
@@ -24,16 +22,16 @@
         <counts>
           <entry key="gradle" value="10" />
           <entry key="java" value="12" />
-          <entry key="md" value="382" />
+          <entry key="md" value="399" />
           <entry key="properties" value="2" />
-          <entry key="txt" value="85" />
+          <entry key="txt" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="10" />
           <entry key="JAVA" value="12" />
-          <entry key="PLAIN_TEXT" value="467" />
+          <entry key="PLAIN_TEXT" value="499" />
           <entry key="Properties" value="2" />
         </counts>
       </usages-collector>
@@ -63,44 +61,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugin.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -150,11 +111,6 @@
             <path>
               <item name="cordova-vk-auth" type="b2602c69:ProjectViewProjectNode" />
               <item name="cordova-vk-auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordova-vk-auth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordova-vk-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552385745585</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update README">
+      <created>1552385873315</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552385873315</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update README">
+      <created>1552385922777</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552385922777</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -243,7 +213,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="32" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -285,7 +254,8 @@
     <MESSAGE value="Update SDK" />
     <MESSAGE value="Toast AppId" />
     <MESSAGE value="Final fixed plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final fixed plugin" />
+    <MESSAGE value="Update README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -382,17 +352,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -403,10 +373,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="46">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
