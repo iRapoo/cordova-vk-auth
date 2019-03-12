@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e85930b-64ea-4544-a277-972cd850943c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/android/SocialVk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/SocialVk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKAccessToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKAccessToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKAccessTokenTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKAccessTokenTracker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKSdk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKSdk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKSdkVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKSdkVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKServiceActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKServiceActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKUIHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKUIHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKSyncRequestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKSyncRequestUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKAbstractOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKAbstractOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKHttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKHttpOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKHttpOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiVideo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKCaptchaDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKCaptchaDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKOpenAuthDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKOpenAuthDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKShareDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKShareDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKShareDialogBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKShareDialogBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKShareDialogNative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKShareDialogNative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/util/VKUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/util/VKUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,44 +16,50 @@
     <session id="170583032">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="10" />
-          <entry key="java" value="3" />
+          <entry key="java" value="12" />
+          <entry key="md" value="158" />
           <entry key="properties" value="2" />
-          <entry key="txt" value="41" />
+          <entry key="txt" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="10" />
-          <entry key="JAVA" value="3" />
-          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="JAVA" value="12" />
+          <entry key="PLAIN_TEXT" value="223" />
           <entry key="Properties" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="8" />
+          <entry key="java" value="9" />
+          <entry key="js" value="1" />
+          <entry key="md" value="3" />
           <entry key="png" value="2" />
           <entry key="prefs" value="1" />
           <entry key="properties" value="2" />
-          <entry key="xml" value="20" />
+          <entry key="xml" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="8" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="9" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="2" />
-          <entry key="XML" value="20" />
+          <entry key="XML" value="21" />
         </counts>
       </usages-collector>
     </session>
@@ -88,6 +76,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugin.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1794">
+              <caret line="78" column="49" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
@@ -97,13 +94,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/android/SocialVk.java">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="245" column="21" lean-forward="true" selection-start-line="245" selection-start-column="21" selection-end-line="245" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -114,6 +108,11 @@
     <findStrings>
       <find>SocialVk</find>
       <find>vk_send</find>
+      <find>callApiMethod</find>
+      <find>return us</find>
+      <find>users_isAppUser</find>
+      <find>ACTION_USERS_IS_APP_USER</find>
+      <find>login</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/android/vksdk_library/build.gradle" />
         <option value="$PROJECT_DIR$/src/android/vksdk_library/project.properties" />
         <option value="$PROJECT_DIR$/src/android/SocialVk.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -156,62 +156,6 @@
             <path>
               <item name="cordova-vk-auth" type="b2602c69:ProjectViewProjectNode" />
               <item name="cordova-vk-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordova-vk-auth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordova-vk-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordova-vk-auth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordova-vk-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="vksdk_library" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordova-vk-auth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordova-vk-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="vksdk_library" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordova-vk-auth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordova-vk-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="vksdk_library" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordova-vk-auth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordova-vk-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="vksdk_library" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordova-vk-auth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordova-vk-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="vksdk_library" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vk" type="462c0819:PsiDirectoryNode" />
-              <item name="sdk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordova-vk-auth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordova-vk-auth" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -228,6 +172,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\#Projects\Cordova_plugins\cordova-vk-auth" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -267,7 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552383121435</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update SDK">
+      <created>1552383671059</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552383671059</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Toast AppId">
+      <created>1552383721839</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552383721839</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -280,7 +243,7 @@
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Image Layers" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -314,7 +277,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update build gradle" />
     <MESSAGE value="Remove paymant classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove paymant classes" />
+    <MESSAGE value="Update SDK" />
+    <MESSAGE value="Toast AppId" />
+    <option name="LAST_COMMIT_MESSAGE" value="Toast AppId" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -353,13 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/social-vk.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="75" lean-forward="true" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/lint.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -381,50 +339,13 @@
     <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/custom_rules.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="78" column="49" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk_old/VKSdk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#21043#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk_old/api/VKApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#6116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk_old/VKSdk.java" />
+    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk_old/api/VKApi.java" />
     <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/WebView.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKSdk.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -435,19 +356,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#1325#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="78" column="49" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/android/SocialVk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="245" column="21" lean-forward="true" selection-start-line="245" selection-start-column="21" selection-end-line="245" selection-end-column="21" />
+        <state relative-caret-position="6532">
+          <caret line="334" column="52" selection-start-line="334" selection-start-column="47" selection-end-line="334" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/social-vk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
