@@ -15,13 +15,9 @@
     },
 
     onDeviceReady: function() {
-        let socialBtn = $('.social-btn');
-
-        socialBtn.click(function () {
-            SocialVk.init('1234567'); //APP ID только цифры
-            SocialVk.login(['offline'], function (value) {
-                console.log(value); //value - вернет JSON с token и user (информация аккаунта)
-            });
+        SocialVk.init('1234567'); //APP ID только цифры
+        SocialVk.login(['offline'], function (value) {
+            console.log(value); //value - вернет JSON с token и user (информация аккаунта)
         });
     },
 
