@@ -182,11 +182,6 @@ public class VKApiVideo extends VKAttachments.VKApiAttachment implements Parcela
     public String mp4_720;
 
     /**
-     * URL of video with height of 1080 pixels. Returns only if you use direct auth.
-     */
-    public String mp4_1080;
-
-    /**
      * URL of the external video link.
      */
     public String external;
@@ -230,7 +225,6 @@ public class VKApiVideo extends VKAttachments.VKApiAttachment implements Parcela
             mp4_360 = files.optString("mp4_360");
             mp4_480 = files.optString("mp4_480");
             mp4_720 = files.optString("mp4_720");
-            mp4_1080 = files.optString("mp4_1080");
             external = files.optString("external");
         }
 
@@ -282,7 +276,6 @@ public class VKApiVideo extends VKAttachments.VKApiAttachment implements Parcela
         this.mp4_360 = in.readString();
         this.mp4_480 = in.readString();
         this.mp4_720 = in.readString();
-        this.mp4_1080 = in.readString();
         this.external = in.readString();
     }
 
@@ -352,7 +345,6 @@ public class VKApiVideo extends VKAttachments.VKApiAttachment implements Parcela
         dest.writeString(this.mp4_360);
         dest.writeString(this.mp4_480);
         dest.writeString(this.mp4_720);
-        dest.writeString(this.mp4_1080);
         dest.writeString(this.external);
     }
 

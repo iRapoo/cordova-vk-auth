@@ -23,7 +23,7 @@ package com.vk.sdk.api.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import com.android.annotations.NonNull;
+import android.support.annotation.NonNull;
 
 import com.vk.sdk.VKSdk;
 

@@ -2,10 +2,112 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e85930b-64ea-4544-a277-972cd850943c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/social-vk.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/social-vk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKAccessToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKAccessToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKAccessTokenTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKAccessTokenTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKScope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKSdk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKSdk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKSdkVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKSdkVersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKServiceActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKServiceActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKUIHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/VKUIHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/WebView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/WebView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKApiConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKApiConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKBatchRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKBatchRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKDefaultParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKDefaultParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKSyncRequestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKSyncRequestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKUploadBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/VKUploadBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/docs/VKUploadDocBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/docs/VKUploadDocBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/docs/VKUploadDocRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/docs/VKUploadDocRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/docs/VKUploadWallDocRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/docs/VKUploadWallDocRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKAbstractOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKAbstractOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKHttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKHttpOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKHttpOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKImageOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKImageOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKJsonOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKJsonOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKModelOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKModelOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKMultipartEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/httpClient/VKMultipartEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiAudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiAudio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiCaptcha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiCaptcha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiDocs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiDocs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiFriends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiFriends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiPhotos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiPhotos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiWall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/methods/VKApiWall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/Identifiable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/Identifiable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/ParseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/ParseUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiApplicationContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiApplicationContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiAudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiAudio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiCity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiCommunity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiCommunity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiCommunityArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiCommunityArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiCommunityFull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiCommunityFull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiGetDialogResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiGetDialogResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiGetMessagesResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiGetMessagesResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiOwner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiPhoto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiPhoto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiPhotoAlbum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiPhotoAlbum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiPhotoSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiPhotoSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiPoll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiPoll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiPostedPhoto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiPostedPhoto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiSchool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiSchool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiUniversity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiUniversity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiUserFull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiUserFull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiWikiPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKApiWikiPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKAttachments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKAttachments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKCommentArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKCommentArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKDocsArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKDocsArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKNotesArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKNotesArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKPhotoArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKPhotoArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKPhotoSizes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKPhotoSizes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKPostArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKPostArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKPrivacy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKPrivacy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKScopes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKScopes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKUsersArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKUsersArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKWallPostResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VKWallPostResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VkAudioArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VkAudioArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VkVideoArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/VkVideoArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/model/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/photo/VKImageParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/photo/VKImageParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/photo/VKUploadAlbumPhotoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/photo/VKUploadAlbumPhotoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/photo/VKUploadImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/photo/VKUploadImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/photo/VKUploadMessagesPhotoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/photo/VKUploadMessagesPhotoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/photo/VKUploadPhotoBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/photo/VKUploadPhotoBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/photo/VKUploadWallPhotoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/api/photo/VKUploadWallPhotoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKCaptchaDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKCaptchaDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKOpenAuthDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKOpenAuthDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKShareDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKShareDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKShareDialogBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKShareDialogBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKShareDialogDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKShareDialogDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKShareDialogNative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/dialogs/VKShareDialogNative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/util/VKJsonHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/util/VKJsonHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/util/VKStringJoiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/util/VKStringJoiner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/util/VKUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/vksdk_library/src/com/vk/sdk/util/VKUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,27 +126,35 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="10" />
+          <entry key="properties" value="2" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="10" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Properties" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gradle" value="1" />
+          <entry key="java" value="1" />
           <entry key="png" value="2" />
           <entry key="prefs" value="1" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="12" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Groovy" value="1" />
           <entry key="Image" value="2" />
+          <entry key="JAVA" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="12" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="19" />
         </counts>
       </usages-collector>
     </session>
@@ -54,44 +164,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugin.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="78" column="49" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/social-vk.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="75" lean-forward="true" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
+            <state relative-caret-position="46">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/android/SocialVk.java">
+        <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="237" column="5" lean-forward="true" selection-start-line="237" selection-start-column="5" selection-end-line="237" selection-end-column="5" />
+            <state relative-caret-position="276">
+              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -101,6 +184,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>SocialVk</find>
+      <find>vk_send</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,6 +197,7 @@
         <option value="$PROJECT_DIR$/plugin.xml" />
         <option value="$PROJECT_DIR$/www/social-vk.js" />
         <option value="$PROJECT_DIR$/src/android/vksdk_library/build.gradle" />
+        <option value="$PROJECT_DIR$/src/android/vksdk_library/project.properties" />
       </list>
     </option>
   </component>
@@ -159,6 +244,44 @@
             <path>
               <item name="cordova-vk-auth" type="b2602c69:ProjectViewProjectNode" />
               <item name="cordova-vk-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="vksdk_library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cordova-vk-auth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cordova-vk-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="vksdk_library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cordova-vk-auth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cordova-vk-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="vksdk_library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cordova-vk-auth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cordova-vk-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="vksdk_library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vk" type="462c0819:PsiDirectoryNode" />
+              <item name="sdk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cordova-vk-auth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cordova-vk-auth" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -170,6 +293,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -199,6 +323,14 @@
       <updated>1552377094406</updated>
       <workItem from="1552377096980" duration="1767000" />
     </task>
+    <task id="LOCAL-00001" summary="Update build gradle">
+      <created>1552380792658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552380792658</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -206,6 +338,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="32" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -223,7 +356,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32998884" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32929516" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
@@ -241,24 +374,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update build gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update build gradle" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/lint.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/project.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/build.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/res/drawable/vk_clear_shape.xml">
@@ -287,11 +408,12 @@
     <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/.settings/org.eclipse.jdt.core.prefs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/custom_rules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/social-vk.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -300,10 +422,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/lint.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/build-extras.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="-1205" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/android/SocialVk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -314,17 +453,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/custom_rules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="78" column="49" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
+        <state relative-caret-position="727">
+          <caret line="78" column="49" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/android/SocialVk.java">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="237" column="5" lean-forward="true" selection-start-line="237" selection-start-column="5" selection-end-line="237" selection-end-column="5" />
+        <state relative-caret-position="46">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/android/vksdk_library/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
         </state>
       </provider>
     </entry>
