@@ -1,0 +1,26 @@
+{
+    "name": "cordova-vk-auth",
+    "version": "1.0.5",
+    "description": "Cordova Plugin for Russian social network VKontakte (http://vk.com)",
+    "cordova": {
+        "id": "cordova-vk-auth",
+        "platforms": [
+            "android",
+            "ios"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/iRapoo/cordova-vk-auth"
+    },
+    "keywords": [
+        "cordova",
+        "vk",
+        "vkontakte",
+        "ecosystem:cordova",
+        "cordova-android",
+        "cordova-ios"
+    ],
+    "author": "Rapoo",
+    "license": "MIT License"
+}

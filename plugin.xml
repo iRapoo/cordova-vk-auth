@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-vk-auth"
+    version="1.0.0">
+
+  <name>SocialVk</name>
+  <description>Cordova plugin for VKontakte sharing</description>
+  <engines>
+    <engine name="cordova" version=">=3.0.0" />
+  </engines>
+  
+  <license>Apache 2.0 License</license>
+  <author>DrMoriarty</author>
+  <keywords>cordova,phonegap,vkontakte,sharing</keywords>
+  <js-module src="www/social-vk.js" name="SocialVk">
+    <clobbers target="SocialVk" />
+  </js-module>
+  <preference name="VK_APP_ID" />
+  <!-- ios -->
+  <platform name="ios">
+    <info>
+      You need to register VKontakte application first.
+    </info>
+    <config-file target="config.xml" parent="/*">
+      <feature name="SocialVk">
+        <param name="ios-package" value="SocialVk"/>
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/SocialVk.h"/>
+    <source-file src="src/ios/SocialVk.m" />
+    <source-file src="src/ios/NSData+Base64.h" />
+    <source-file src="src/ios/NSData+Base64.m" />
+    <framework src="src/ios/VKSdk.framework" custom="true"/>
+    <framework src="SafariServices.framework" custom="false"/>
+    <resource-file src="src/ios/VKSdkResources.bundle" />
+
+    <config-file target="*-Info.plist" parent="CFBundleURLTypes">
+      <array>
+        <dict>
+          <key>CFBundleTypeRole</key>
+          <string>Editor</string>
+          <key>CFBundleURLName</key>
+          <string>vk$VK_APP_ID</string>
+          <key>CFBundleURLSchemes</key>
+          <array>
+            <string>vk$VK_APP_ID</string>
+          </array>
+        </dict>
+      </array>
+    </config-file>
+    <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+      <array>
+        <string>vkauthorize</string>
+      </array>
+    </config-file>
+  </platform>
+
+  <!-- android -->
+  <platform name="android">
+    <!--info>
+      You should add 'android.library.reference.2=vksdk_library' to project.properties
+    </info-->
+    <!-- Cordova 2.5+ -->
+    <config-file target="config.xml" parent="/*">
+      <feature name="SocialVk">
+        <param name="android-package" value="ru.trilan.socialvk.SocialVk"/>
+      </feature>
+    </config-file>
+    <config-file target="AndroidManifest.xml" parent="/manifest/application">
+      <activity android:name="com.vk.sdk.VKOpenAuthActivity" >
+      </activity>
+      <activity android:name="com.vk.sdk.VKServiceActivity" >
+      </activity>
+    </config-file>
+    <config-file target="res/values/strings.xml" parent="/*">
+      <integer name="com_vk_sdk_AppId">$VK_APP_ID</integer>
+    </config-file>
+
+    <framework src="src/android/vksdk_library" custom="true" />
+    <source-file src="src/android/SocialVk.java" target-dir="src/ru/trilan/socialvk/" />
+  </platform>
+
+</plugin>
