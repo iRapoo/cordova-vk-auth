@@ -1,6 +1,7 @@
 function SocialVk() {
     // Does nothing
 };
+
 SocialVk.prototype.init = function(appId, successCallback, errorCallback) {
     cordova.exec(successCallback, errorCallback, "SocialVk", "initSocialVk", [appId]);
 };

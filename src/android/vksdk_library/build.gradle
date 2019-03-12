@@ -45,14 +45,12 @@ buildscript {
 apply plugin: 'android-library'
 
 dependencies {
-    compile fileTree(dir: 'libs', include: '*.jar')
-    debugCompile project(path: ":CordovaLib", configuration: "debug")
-    releaseCompile project(path: ":CordovaLib", configuration: "release")
+    implementation fileTree(dir: 'libs', include: '*.jar')
 }
 
 android {
-    compileSdkVersion cdvCompileSdkVersion
-    buildToolsVersion cdvBuildToolsVersion
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
     publishNonDefault true
 
     compileOptions {
