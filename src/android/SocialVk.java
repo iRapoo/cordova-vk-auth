@@ -242,7 +242,7 @@ public class SocialVk extends CordovaPlugin {
         this.cordova.setActivityResultCallback(this);
 
         Toast toast = Toast.makeText(getApplicationContext(),
-                "Пора покормить кота!", Toast.LENGTH_SHORT);
+                "AppId: " + appId, Toast.LENGTH_SHORT);
         toast.show();
 
         Log.i(TAG, "VK initialize");
