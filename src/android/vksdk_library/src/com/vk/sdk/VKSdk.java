@@ -32,8 +32,8 @@ import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 import android.preference.PreferenceManager;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import com.android.annotations.NonNull;
+import com.android.annotations.Nullable;
 import android.text.TextUtils;
 import android.webkit.CookieManager;
 import android.webkit.CookieSyncManager;
@@ -42,8 +42,6 @@ import com.vk.sdk.api.VKError;
 import com.vk.sdk.api.VKRequest;
 import com.vk.sdk.api.VKResponse;
 import com.vk.sdk.dialogs.VKOpenAuthDialog;
-import com.vk.sdk.payments.VKPaymentsCallback;
-import com.vk.sdk.payments.VKPaymentsReceiver;
 import com.vk.sdk.util.VKUtil;
 
 import java.util.ArrayList;
@@ -78,7 +76,6 @@ public class VKSdk {
      * App id for current application
      */
     private static int sCurrentAppId = 0;
-    private static boolean isPaymentsEnable = false;
 
     private final Context applicationContext;
 
@@ -133,19 +130,6 @@ public class VKSdk {
         });
     }
 
-    public static boolean isIsPaymentsEnable() {
-        return isPaymentsEnable;
-    }
-
-    public static void requestUserState(Context ctx, VKPaymentsCallback callback) {
-        VKPaymentsCallback.requestUserState(ctx, callback);
-    }
-
-    public void withPayments() {
-        isPaymentsEnable = true;
-        VKPaymentsReceiver.onReceiveStatic(applicationContext);
-    }
-
     public static VKSdk customInitialize(Context ctx, int appId, String apiVer) {
         if (appId == 0) {
             appId = getIntFromPref(ctx, VK_SDK_APP_ID_PREF_KEY);
@@ -189,9 +173,11 @@ public class VKSdk {
                 throw new RuntimeException("VKSdk.initialize(Context) must be call from Application#onCreate()");
             }
         } else {
+            /*
             if (!hasInStack(Application.class, "onCreate")) {
                 throw new RuntimeException("VKSdk.initialize(Context) must be call from Application#onCreate()");
             }
+            */
         }
 
         int appId = getIntResByName(ctx, SDK_APP_ID);
