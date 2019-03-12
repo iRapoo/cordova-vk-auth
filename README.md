@@ -4,6 +4,12 @@
 
 Исправленная библиотека для авторизации и получения доступа к соц. сети ВКонтакте
 
+**Установка**
+
+    cordova plugin add https://github.com/iRapoo/cordova-vk-auth --variable VK_APP_ID=1234567
+
+*1234567 - APP_ID VK (только цифры)
+
 **Пример использования**
 
     initialize: function() {
